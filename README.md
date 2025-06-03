@@ -58,6 +58,57 @@ sudo attafi.py
 
 ---
 
+#
+
+---
+
+## 🧠 License
+
+### **🔑 Wordlist Requirement**
+
+This tool uses the popular \`\` wordlist for password cracking. It is **not included in this repository** due to its large size.
+
+You can find it in Kali Linux at:
+
+```
+bash
+
+/usr/share/wordlists/rockyou.txt.gz
+```
+
+
+To use it:
+
+1. Decompress the file:
+
+```
+bash
+
+gunzip /usr/share/wordlists/rockyou.txt.gz
+```
+
+2. Then copy it to your project directory:
+
+```
+bash
+
+cp /usr/share/wordlists/rockyou.txt /path/to/attafi/
+```
+
+
+Or download from a public mirror:
+
+📥 [Download rockyou.txt from GitHub (SecLists)](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz)
+
+This project is **not licensed for commercial use**. Use it **responsibly** and **ethically**.
+
+---
+
+Happy Hacking! 🚀
+
+
+---
+
 ## 🚫 Disclaimer
 
 This tool is for **educational use only**. Unauthorized access to networks is **illegal and unethical**.
