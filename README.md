@@ -47,14 +47,6 @@ sudo attafi.py
 * Press `Ctrl+C` after handshake is captured
 * Script runs `aircrack-ng` to attempt cracking the password
 
----
-
-## 💡 Notes
-
-* Place `rockyou.txt` inside the same folder or update the path in the script.
-* You can change scan time by editing the `scan_networks()` function.
-* The tool works best when the target network has active connected clients.
-* Cracking speed and success depend on password strength and dictionary used.
 
 ---
 
@@ -64,14 +56,26 @@ sudo attafi.py
 
 ## 🧠 License
 
+
+
+This project is **not licensed for commercial use**. Use it **responsibly** and **ethically**.
+
+---
+
+## 💡 Notes
+
+* Place `rockyou.txt` inside the same folder or update the path in the script.
+* You can change scan time by editing the `scan_networks()` function.
+* The tool works best when the target network has active connected clients.
+* Cracking speed and success depend on password strength and dictionary used.
+
 ### **🔑 Wordlist Requirement**
 
 This tool uses the popular \`\` wordlist for password cracking. It is **not included in this repository** due to its large size.
 
 You can find it in Kali Linux at:
 
-```
-bash
+```bash
 
 /usr/share/wordlists/rockyou.txt.gz
 ```
@@ -81,26 +85,22 @@ To use it:
 
 1. Decompress the file:
 
-```
-bash
+```bash
 
 gunzip /usr/share/wordlists/rockyou.txt.gz
 ```
 
 2. Then copy it to your project directory:
 
-```
-bash
+```bash
 
 cp /usr/share/wordlists/rockyou.txt /path/to/attafi/
 ```
 
 
-Or download from a public mirror:
+Or download from a public mirror and then move it to your project directory:
 
 📥 [Download rockyou.txt from GitHub (SecLists)](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz)
-
-This project is **not licensed for commercial use**. Use it **responsibly** and **ethically**.
 
 ---
 
