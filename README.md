@@ -24,6 +24,7 @@ Attafi is an automated Wi-Fi penetration testing toolkit that simplifies the pro
 ```bash
 git clone https://github.com/subhaadeep/attafi
 cd attafi
+git clone https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 ```
 
 ### 2. Setup
@@ -33,7 +34,7 @@ Make sure `rockyou.txt` is in the same directory as the script. If not, modify t
 ### 3. Run the Script
 
 ```bash
-sudo python3 wifi_attack_launcher.py
+sudo attafi.py
 ```
 
 ### 4. Follow the Prompts
