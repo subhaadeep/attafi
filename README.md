@@ -2,6 +2,8 @@
 
 Attafi is an automated Wi-Fi penetration testing toolkit that simplifies the process of scanning networks, capturing handshakes, and attempting WPA/WPA2 password cracking using dictionary attacks.
 
+[https://github.com/subhaadeep/share/blob/main/attafi.png]
+
 > ⚡ Built for **ethical hacking** and **educational purposes only**.
 
 ---
