@@ -82,9 +82,10 @@ This project is **not licensed for commercial use**. Use it **responsibly** and 
 ---
 
 ☕ Buy Me a Coffee
-If you find Attafi helpful or interesting, consider supporting my work with a coffee: https://coff.ee/subhaadeep
 
+If you find Attafi helpful or interesting, consider supporting my work with a coffee: https://coff.ee/subhaadeep
 Your support helps me maintain and improve open-source projects like this. Thank you! 🙌
+
 ---
 
 Happy Hacking! 🚀
