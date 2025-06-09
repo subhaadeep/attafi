@@ -1,6 +1,8 @@
 # Attafi - Wi-Fi Attack Automation Toolkit 🚀
 
-Attafi is an automated Wi-Fi penetration testing toolkit that simplifies the process of scanning networks, capturing handshakes, and attempting WPA/WPA2 password cracking using dictionary attacks.
+Attafi is a Python-based script designed to automate common Wi-Fi attack steps using the aircrack-ng toolkit. It simplifies tasks like monitor mode switching, scanning networks, capturing WPA handshakes, performing deauthentication attacks, and password cracking using rockyou.txt.
+
+> **Note**: This is not a standalone hacking tool. Attafi leverages existing tools (like `airodump-ng`, `aireplay-ng`, and `aircrack-ng`) via subprocess automation and does not perform low-level packet processing or injection natively.
 
 ![attafi](https://github.com/subhaadeep/share/blob/main/attafi.png)
 
@@ -11,9 +13,12 @@ Attafi is an automated Wi-Fi penetration testing toolkit that simplifies the pro
 ## 🧪 Features
 
 * Automatically sets your adapter to monitor mode
+* Scan for access points and connected clients
 * Scans and lists available Wi-Fi networks
+* Select target BSSID and client
 * Launches deauthentication and handshake capture attacks in parallel
 * Attempts WPA/WPA2 cracking using `aircrack-ng` with `rockyou.txt`
+* User-friendly CLI prompts
 
 ---
 
@@ -111,7 +116,7 @@ Happy Hacking! 🚀
 
 ## 🚫 Disclaimer
 
-This tool is for **educational use only**. Unauthorized access to networks is **illegal and unethical**.
+This projct is for **educational use only**. Unauthorized access to networks is **illegal and unethical**.
 Always use with explicit **permission**.
 
 ---
